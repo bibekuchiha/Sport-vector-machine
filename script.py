@@ -1,4 +1,5 @@
 
+#Importing libraries
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
@@ -38,3 +39,5 @@ def find_strike_zone(dataset):
     plt.show()
 
 find_strike_zone(david_ortiz)
+find_strike_zone(jose_altuve)
+find_strike_zone(aaron_judge)
